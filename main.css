@@ -87,26 +87,30 @@ nav {
 .nav-buttons-articles:hover {
     background-color: black;
     color: white;
-    transition-duration: .5s;
+    transition-duration: .3s;
     border: solid 15px #77311f;
+    transition-timing-function: ease-in-out;
 }
 .nav-buttons-offices:hover {
     background-color: black;
     color: white;
     transition-duration: .5s;
     border: solid 15px #77311f;
+    transition-timing-function: ease-in-out;
 }
 .nav-buttons-rrhh:hover {
     background-color: black;
     color: white;
     transition-duration: .5s;
     border: solid 15px #77311f;
+    transition-timing-function: ease-in-out;
 }
 .nav-buttons-contact:hover {
     background-color: black;
     color: white;
     transition-duration: .5s;
     border: solid 15px #77311f;
+    transition-timing-function: ease-in-out;
 }
 
 
