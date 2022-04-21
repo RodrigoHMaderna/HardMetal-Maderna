@@ -8,7 +8,6 @@ body {
     "presentation"
     "footer"   
     ;
-
 }
 
 
@@ -112,7 +111,6 @@ h2 {
     margin: 20px;
 }
 .main-index {
-
     grid-area: presentation;
     display: flex;
     flex-direction: column;
