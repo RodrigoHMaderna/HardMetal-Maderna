@@ -134,26 +134,21 @@ div.pasado {
     .pasado-p {
         font-size: 40px;
         height: fit-content;
-
     }
 
 div.presente {
     display: flex;
     flex-direction: column;
     height: fit-content;
-  
 }
     .presente-h2 {
         background-color: #ffdd9e;
         align-self: center;
         font-size: 70px;
         padding: 15px;
-
     }
     .presente-p {
         font-size: 40px;
-
-
     }
 
 footer {
@@ -279,4 +274,17 @@ main.rrhh {
 
 .campos {
     width: 400px;
+}
+
+@media screen and (min-width: 1200px) {
+    div.pasado {
+        flex-direction: row;
+    }
+    div.presente {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .presente-p {
+        
+    }
 }
