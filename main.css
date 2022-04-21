@@ -10,7 +10,6 @@ body {
     ;
 }
 
-
 nav {
     grid-area: nav;
     background-color: #ffdd9e;
@@ -22,7 +21,7 @@ nav {
         height: 100px;
     }
     .nav-buttons {
-        display: flex;   
+        display: flex;
     }  
         .nav-buttons-articles {
             font-size: 20px;
@@ -37,6 +36,7 @@ nav {
             align-items: center;
             border: solid 10px black;
             margin: 10px 20px 10px 20px;
+            transition-property: all;
         }
         .nav-buttons-offices {
             font-size: 20px;
@@ -51,6 +51,7 @@ nav {
             align-items: center;
             border: solid 10px black;
             margin: 10px 20px 10px 20px;
+            transition-property: all;
         }
         .nav-buttons-rrhh {
             font-size: 20px;
@@ -65,6 +66,7 @@ nav {
             align-items: center;
             border: solid 10px black;
             margin: 10px 20px 10px 20px;
+            transition-property: all;
         }
         .nav-buttons-contact {
             font-size: 20px;
@@ -79,7 +81,34 @@ nav {
             align-items: center;
             border: solid 10px black;
             margin: 10px 20px 10px 20px;
+            transition-property: all;
         }
+
+.nav-buttons-articles:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+    border: solid 15px #77311f;
+}
+.nav-buttons-offices:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+    border: solid 15px #77311f;
+}
+.nav-buttons-rrhh:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+    border: solid 15px #77311f;
+}
+.nav-buttons-contact:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+    border: solid 15px #77311f;
+}
+
 
 p {
     margin-top: 0%;
