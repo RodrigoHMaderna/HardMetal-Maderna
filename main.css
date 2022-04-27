@@ -10,107 +10,9 @@ body {
     ;
 }
 
-nav {
-    grid-area: nav;
-    background-color: #ffdd9e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-    .nav-logo {
-        height: 100px;
-    }
-    .nav-buttons {
-        display: flex;
-    }  
-        .nav-buttons-articles {
-            font-size: 20px;
-            font-style: normal ;
-            color: white;
-            display: flex;
-            background-color: #77311f;
-            order: 1;
-            width: 100px;
-            height: 50px;
-            justify-content: center;
-            align-items: center;
-            border: solid 10px black;
-            margin: 10px 20px 10px 20px;
-            transition-property: all;
-        }
-        .nav-buttons-offices {
-            font-size: 20px;
-            font-style: normal ;
-            color: white;
-            display: flex;
-            background-color: #77311f;
-            order: 2;
-            width: 100px;
-            height: 50px;
-            justify-content: center;
-            align-items: center;
-            border: solid 10px black;
-            margin: 10px 20px 10px 20px;
-            transition-property: all;
-        }
-        .nav-buttons-rrhh {
-            font-size: 20px;
-            font-style: normal ;
-            color: white;
-            display: flex;
-            background-color: #77311f;
-            order: 3;
-            width: 100px;
-            height: 50px;
-            justify-content: center;
-            align-items: center;
-            border: solid 10px black;
-            margin: 10px 20px 10px 20px;
-            transition-property: all;
-        }
-        .nav-buttons-contact {
-            font-size: 20px;
-            font-style: normal ;
-            color: white;
-            display: flex;
-            background-color: #77311f;
-            order: 4;
-            width: 100px;
-            height: 50px;
-            justify-content: center;
-            align-items: center;
-            border: solid 10px black;
-            margin: 10px 20px 10px 20px;
-            transition-property: all;
-        }
-            .nav-buttons-articles:hover {
-                background-color: black;
-                color: white;
-                transition-duration: .3s;
-                border: solid 15px #77311f;
-                transition-timing-function: ease-in-out;
-            }
-            .nav-buttons-offices:hover {
-                background-color: black;
-                color: white;
-                transition-duration: .5s;
-                border: solid 15px #77311f;
-                transition-timing-function: ease-in-out;
-            }
-            .nav-buttons-rrhh:hover {
-                background-color: black;
-                color: white;
-                transition-duration: .5s;
-                border: solid 15px #77311f;
-                transition-timing-function: ease-in-out;
-            }
-            .nav-buttons-contact:hover {
-                background-color: black;
-                color: white;
-                transition-duration: .5s;
-                border: solid 15px #77311f;
-                transition-timing-function: ease-in-out;
-            }
+.nav-link {
+    font-size: 40px;
+}
 
 p {
     margin-top: 0%;
@@ -138,6 +40,8 @@ header {
         margin-left: 20px;
         font-size: 35px;
     }
+
+
 
 h2 {
     margin: 20px;
@@ -244,8 +148,8 @@ footer {
 }
 
 h3{
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 5px !important;
+    margin-bottom: 3px !important;
 }
 
 main.offices {
