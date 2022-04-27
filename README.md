@@ -8,3 +8,4 @@ Hecho por Rodrigo Hernán Maderna, para la cursada #36030 del curso dictado por 
 21/04 - Agregadas animaciones, transiciones, y @media para responsive.
 21/04 - Cambios menores
 
+27/04 - ultimo commit antes de bootstrap
