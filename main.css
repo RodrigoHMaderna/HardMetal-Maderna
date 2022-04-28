@@ -11,10 +11,10 @@ body {
 }
 
 .nav-link {
-    font-size: 40px;
+    font-size: 26px;
 }
 .nav-logo {
-    width: 300px;
+    width: 250px;
 }
 
 p {
@@ -22,29 +22,9 @@ p {
     margin-bottom: 0%;
 }
 
-header {
-    background-image: url("media/FONDO.jpg");
-    background-size: 2000px;
-    background-repeat: no-repeat;
-    height: 600px;
+header { 
     grid-area: header;
-    display: flex;
-    flex-direction: column;    
-    }
-    .header-h1 {
-        margin-left: 20px;
-        font-size: 80px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .header-p {
-        font-size: 25px;
-        width: 500px;
-        margin-left: 20px;
-        font-size: 35px;
-    }
-
-
+}
 
 h2 {
     margin: 20px;
@@ -60,7 +40,7 @@ h2 {
 div.animation {
     display: flex;
     align-self: center;
-    background-color: #77311f;
+    background-color: rgb(119, 49, 31);
     width: fit-content;
     height: 5px;
     animation-name: anim;
@@ -97,7 +77,7 @@ div.presente {
     .presente-h2 {
         background-color: #ffdd9e;
         align-self: center;
-        font-size: 70px;
+        font-size: 55px;
         padding: 15px;
     }
     .presente-p {
@@ -233,6 +213,38 @@ main.rrhh {
 }
 
 
+@media screen and (max-width: 700px) {
+    .pasado-p {
+        font-size: 25px !important;
+    }
+    .pasado-h2{
+        font-size: 35px !important;
+    }
+    .presente-p {
+        font-size: 25px !important;
+    }
+    .presente-h2 {
+        font-size: 35px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .pasado-p {
+        font-size: 30px !important;
+    }
+    .pasado-h2{
+        font-size: 40px !important;
+    }
+    .presente-p {
+        font-size: 30px !important;
+    }
+    .presente-h2 {
+        font-size: 40px !important;
+    }
+
+
+
+
+}
 
 
 @media screen and (min-width: 1200px) {
@@ -243,12 +255,8 @@ main.rrhh {
         flex-direction: row-reverse;
         align-items: center;
     }
-    .header-h1 {
-        font-size: 100px ;
-    }
-    .header-p {
-        width: 900px;
-    }
+
+
 }
 
 @keyframes anim {
