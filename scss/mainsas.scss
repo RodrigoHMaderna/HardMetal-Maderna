@@ -1,0 +1,105 @@
+
+$color-fondo1: #ffe7bb;
+$color-fondo2: #ffdd9e;
+$color-main: #94331b;
+
+
+body {
+    background-color: $color-fondo1;
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "presentation"
+    "footer"   
+    ;
+}
+.nav-link {
+    font-size: 26px;
+}
+.nav-logo {
+    width: 250px;
+}
+p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+header { 
+    grid-area: header;
+}
+h2 {
+    margin: 20px;
+}
+
+@import "componentes/animation";
+
+@import "componentes/main-index";
+
+@import "componentes/container-footer";
+
+@import "componentes/offices";
+
+@import "componentes/articles";
+
+@import "componentes/rrhh";
+
+@import "componentes/contact";
+
+
+@media screen and (max-width: 700px) {
+    .pasado p {
+        font-size: 25px !important;
+    }
+    .pasado h2{
+        font-size: 35px !important;
+    }
+    .presente p {
+        font-size: 25px !important;
+    }
+    .presente h2 {
+        font-size: 35px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .pasado p {
+        font-size: 30px !important;
+    }
+    .pasado h2{
+        font-size: 40px !important;
+    }
+    .presente p {
+        font-size: 30px !important;
+    }
+    .presente h2 {
+        font-size: 40px !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .main-index .pasado {
+        flex-direction: row;
+    }
+    .main-index .presente {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+@keyframes anim {
+    0% {
+        width: 100%;
+    }
+    20% {
+        width: 75%;
+    }
+    40% {
+        width: 50%;
+    }
+    60% {
+        width: 25%;
+    }
+    80% {
+        width: 50%;
+    }
+    100% {
+        width: 100%;
+    }  
+}

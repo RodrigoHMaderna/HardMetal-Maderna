@@ -12,3 +12,6 @@ Hecho por Rodrigo Hernán Maderna, para la cursada #36030 del curso dictado por 
 27/04 - Agregado nav con bootstrap
 27/04 - Agregado grid en footer
 27/04 - Agregado carrousel
+
+03/05 - agregando sas
+03/05 - creando nesting

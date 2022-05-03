@@ -1,0 +1,211 @@
+body {
+  background-color: #ffe7bb;
+  display: grid;
+  grid-template-areas: "nav" "header" "presentation" "footer"; }
+
+.nav-link {
+  font-size: 26px; }
+
+.nav-logo {
+  width: 250px; }
+
+p {
+  margin-top: 0%;
+  margin-bottom: 0%; }
+
+header {
+  grid-area: header; }
+
+h2 {
+  margin: 20px; }
+
+div.animation {
+  display: flex;
+  align-self: center;
+  background-color: #94331b;
+  width: fit-content;
+  height: 10px;
+  animation-name: anim;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  margin: 20px;
+  border: solid 2px #94331b; }
+
+.main-index {
+  grid-area: presentation;
+  display: flex;
+  flex-direction: column;
+  padding: 30px; }
+  .main-index .pasado {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content; }
+    .main-index .pasado h2 {
+      background-color: #ffe7bb;
+      align-self: center;
+      font-size: 55px;
+      width: fit-content;
+      padding: 15px; }
+    .main-index .pasado p {
+      font-size: 40px;
+      height: fit-content; }
+  .main-index .presente {
+    display: flex;
+    flex-direction: column;
+    height: fit-content; }
+    .main-index .presente h2 {
+      background-color: #ffe7bb;
+      align-self: center;
+      font-size: 55px;
+      padding: 15px; }
+    .main-index .presente p {
+      font-size: 40px; }
+
+.container {
+  background-color: #ffdd9e;
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; }
+  .container .row {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .container .row .footer-p {
+      font-size: 40px; }
+    .container .row .footer-logos {
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 40px; }
+    .container .row .derechos {
+      margin-bottom: 30px;
+      font-size: 25px; }
+
+.offices {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .offices div {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3px;
+    padding-bottom: 3px; }
+    .offices div .offices-items {
+      font-size: 20px;
+      height: 120px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-self: center;
+      border: solid 3px black; }
+      .offices div .offices-items .offi {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding: 0% !important; }
+
+.articles {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .articles .text {
+    margin-top: 20px; }
+
+.rrhh {
+  display: flex;
+  flex-direction: column; }
+  .rrhh .title {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .rrhh p {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .rrhh .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 30px; }
+  .rrhh .campos {
+    width: 400px; }
+
+.contact {
+  display: flex;
+  flex-direction: column; }
+  .contact .title {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .contact p {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .contact .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 30px; }
+  .contact .campos {
+    width: 400px; }
+
+@media screen and (max-width: 700px) {
+  .pasado p {
+    font-size: 25px !important; }
+  .pasado h2 {
+    font-size: 35px !important; }
+  .presente p {
+    font-size: 25px !important; }
+  .presente h2 {
+    font-size: 35px !important; } }
+
+@media screen and (max-width: 1200px) {
+  .pasado p {
+    font-size: 30px !important; }
+  .pasado h2 {
+    font-size: 40px !important; }
+  .presente p {
+    font-size: 30px !important; }
+  .presente h2 {
+    font-size: 40px !important; } }
+
+@media screen and (min-width: 1200px) {
+  .main-index .pasado {
+    flex-direction: row; }
+  .main-index .presente {
+    flex-direction: row-reverse;
+    align-items: center; } }
+
+@keyframes anim {
+  0% {
+    width: 100%; }
+  20% {
+    width: 75%; }
+  40% {
+    width: 50%; }
+  60% {
+    width: 25%; }
+  80% {
+    width: 50%; }
+  100% {
+    width: 100%; } }

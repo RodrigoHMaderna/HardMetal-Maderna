@@ -1,0 +1,13 @@
+div.animation {
+    display: flex;
+    align-self: center;
+    background-color: $color-main;
+    width: fit-content;
+    height: 10px;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    margin: 20px;
+    border: solid 2px $color-main;
+}
