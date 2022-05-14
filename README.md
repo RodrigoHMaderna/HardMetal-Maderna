@@ -15,3 +15,9 @@ Hecho por Rodrigo Hernán Maderna, para la cursada #36030 del curso dictado por 
 
 03/05 - agregando sas
 03/05 - creando nesting
+
+14/05 - agregado map de colores de articulos
+14/05 - agregado extend y mixing
+
+14/05 - agregadas keywords, descripciones a todas las paginas y subpaginas
+14/04 - Modificado titulo en todas las paginas
