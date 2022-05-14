@@ -12,4 +12,12 @@
     .text {
         margin-top: 20px;
     }
+    .coldisp {
+        @extend .textos;
+    }
+    .colorart {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }

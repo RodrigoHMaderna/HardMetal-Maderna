@@ -3,6 +3,28 @@ $color-fondo1: #ffe7bb;
 $color-fondo2: #ffdd9e;
 $color-main: #94331b;
 
+$colorarticles: (
+    Negro: black,
+    Rojo: red,
+    Azul: blue,
+    Verde: green,
+);
+@each $col, $color in $colorarticles {
+    .art-#{$col} {
+        color: $color;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        background-color: white;
+    }
+
+}
+
+@mixin font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+
 
 body {
     background-color: $color-fondo1;
@@ -29,6 +51,13 @@ header {
 }
 h2 {
     margin: 20px;
+}
+.textos {
+    font-size: 20px;
+    color: $color-main;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 @import "componentes/animation";
@@ -75,6 +104,9 @@ h2 {
     }
 }
 @media screen and (min-width: 1200px) {
+    .textos {
+        font-size: 30px;
+    }
     .main-index .pasado {
         flex-direction: row;
     }
