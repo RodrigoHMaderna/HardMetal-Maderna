@@ -9,6 +9,7 @@ $colorarticles: (
     Azul: blue,
     Verde: green,
 );
+
 @each $col, $color in $colorarticles {
     .art-#{$col} {
         color: $color;
@@ -17,15 +18,12 @@ $colorarticles: (
         font-size: 15px;
         background-color: white;
     }
-
 }
 
 @mixin font {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
     
-
-
 body {
     background-color: $color-fondo1;
     display: grid;
@@ -42,22 +40,17 @@ body {
 .nav-logo {
     width: 250px;
 }
-p {
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
 header { 
     grid-area: header;
 }
-h2 {
-    margin: 20px;
-}
+
 .textos {
     font-size: 20px;
     color: $color-main;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
 }
 
 @import "componentes/animation";
@@ -115,6 +108,7 @@ h2 {
         align-items: center;
     }
 }
+
 @keyframes anim {
     0% {
         width: 100%;

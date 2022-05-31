@@ -1,7 +1,6 @@
 .rrhh {
     display: flex;
     flex-direction: column;
-
     .title {
         @extend .textos;
     }

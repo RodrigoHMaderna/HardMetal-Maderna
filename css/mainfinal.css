@@ -37,22 +37,16 @@ body {
 .nav-logo {
   width: 250px; }
 
-p {
-  margin-top: 0%;
-  margin-bottom: 0%; }
-
 header {
   grid-area: header; }
-
-h2 {
-  margin: 20px; }
 
 .textos, .container .row .footer-p, .articles .coldisp, .rrhh .title, .rrhh h3, .contact .title, .contact h3 {
   font-size: 20px;
   color: #94331b;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center; }
 
 div.animation {
   display: flex;
@@ -83,10 +77,12 @@ div.animation {
       align-self: center;
       font-size: 55px;
       width: fit-content;
-      padding: 15px; }
+      padding: 15px;
+      text-align: center; }
     .main-index .pasado p {
       font-size: 40px;
-      height: fit-content; }
+      height: fit-content;
+      padding-left: 20px; }
   .main-index .presente {
     display: flex;
     flex-direction: column;
@@ -96,9 +92,11 @@ div.animation {
       background-color: #ffdd9e;
       align-self: center;
       font-size: 55px;
-      padding: 15px; }
+      padding: 15px;
+      text-align: center; }
     .main-index .presente p {
-      font-size: 40px; }
+      font-size: 40px;
+      padding-left: 10px; }
 
 .container {
   background-color: #ffdd9e;
@@ -116,7 +114,8 @@ div.animation {
       height: 40px; }
     .container .row .derechos {
       margin-bottom: 30px;
-      font-size: 17px; }
+      font-size: 17px;
+      text-align: center; }
 
 .offices {
   display: flex;
@@ -143,7 +142,8 @@ div.animation {
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        padding: 0% !important; }
+        padding: 0% !important;
+        margin-bottom: 0%; }
 
 .articles {
   padding-top: 50px;

@@ -21,3 +21,7 @@ Hecho por Rodrigo Hernán Maderna, para la cursada #36030 del curso dictado por 
 
 14/05 - agregadas keywords, descripciones a todas las paginas y subpaginas
 14/04 - Modificado titulo en todas las paginas
+
+
+31/05 - Ultimos detalles, agregado archivo de presupuesto al repositorio
+31/05 - Entregado
